@@ -1,5 +1,7 @@
 import pandas as pd
 
+print('hello')
+
 def load_players(file_path):
     players_rec=pd.read_csv(file_path)
     return players_rec
